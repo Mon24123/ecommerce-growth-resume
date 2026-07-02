@@ -259,12 +259,6 @@
       text-align: right;
     }
 
-    .fit-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-
     .card {
       border-radius: 8px;
       padding: 18px;
@@ -324,17 +318,6 @@
     li { margin: 7px 0; }
     b { color: var(--ink); }
 
-    .commerce-focus {
-      margin-top: 12px;
-      padding: 13px 14px;
-      border-left: 4px solid var(--accent);
-      border-radius: 6px;
-      color: #684430;
-      background: #fff5ee;
-      font-size: 14px;
-      font-weight: 680;
-    }
-
     .project-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -391,7 +374,6 @@
 
     @media (max-width: 900px) {
       .hero,
-      .fit-grid,
       .project-grid,
       .skills {
         grid-template-columns: 1fr;
@@ -434,7 +416,6 @@
     <div class="nav-inner">
       <div class="brand"><span class="brand-mark">EC</span><span>毛雨晴 · 电商运营简历</span></div>
       <div class="nav-links">
-        <a href="#fit">岗位匹配</a>
         <a href="#experience">经历</a>
         <a href="#projects">项目</a>
         <a href="#skills">会做什么</a>
@@ -476,31 +457,9 @@
       </aside>
     </section>
 
-    <section id="fit">
-      <div class="section-head">
-        <h2>我能接上的电商工作</h2>
-        <p class="section-note">不硬装电商人，只写能直接上手的部分</p>
-      </div>
-      <div class="fit-grid">
-        <div class="card">
-          <h3>会跟转化</h3>
-          <p>做过从第一次沟通到成交的完整跟进，知道用户为什么犹豫、什么时候该补信息、什么时候该换话术。</p>
-        </div>
-        <div class="card">
-          <h3>会做内容</h3>
-          <p>长期写小红书、公众号、今日头条，能看选题、标题、评论区反馈，也知道内容不能只好看，还要让人愿意继续问。</p>
-        </div>
-        <div class="card">
-          <h3>会整理杂事</h3>
-          <p>做运营时很多东西很碎：聊天记录、用户问题、活动名单、表格进度。我能把这些东西理清楚，不让信息散在一堆地方。</p>
-        </div>
-      </div>
-    </section>
-
     <section id="experience">
       <div class="section-head">
         <h2>核心经历</h2>
-        <p class="section-note">重点放在成交、活动、内容和表格记录</p>
       </div>
       <div class="timeline">
         <article class="experience">
@@ -514,7 +473,6 @@
             <li>淡季重新整理人群分层和话术，根据年级、基础、投入度、目标拆分沟通策略，业绩排名达到团队第一。</li>
             <li>把常见问题、跟进节奏和成交记录整理成固定模板，单用户处理耗时降低30%+。</li>
           </ul>
-          <div class="commerce-focus">和电商相关的部分：高客单转化、活动期间跟进、用户分层、客服话术和成交记录。</div>
         </article>
 
         <article class="experience">
@@ -527,7 +485,6 @@
             <li>累计转化5名付费用户，创收近5000元；承担队长及教练角色，多次获得最佳个人奖和最佳教练奖。</li>
             <li>活动文案与沟通模板被团队复用，熟悉活动开始前预热、过程中答疑、结束后继续跟进的节奏。</li>
           </ul>
-          <div class="commerce-focus">和电商相关的部分：活动预热、社群答疑、低价体验品到正价品的继续转化。</div>
         </article>
 
         <article class="experience">
@@ -547,7 +504,6 @@
     <section id="projects">
       <div class="section-head">
         <h2>项目与作品</h2>
-        <p class="section-note">放和电商最接近的几段</p>
       </div>
       <div class="project-grid">
         <article class="project">
@@ -556,7 +512,6 @@
             <span class="date">2023.10 - 至今</span>
           </div>
           <p>小红书单篇最高浏览量4.7W、互动600+；公众号100+篇文章，最高浏览量7000+；今日头条单篇1W+。会看选题、标题、封面和评论反馈，也会根据数据调整下一篇怎么写。</p>
-          <div class="commerce-focus">能接的活：竞品笔记拆解、商品卖点整理、种草文案初稿、评论区反馈归纳。</div>
         </article>
 
         <article class="project">
@@ -569,7 +524,6 @@
             <a href="https://github.com/Mon24123/good-time" target="_blank" rel="noopener">GitHub 仓库</a>
             <a href="https://github.com/Mon24123/good-time/releases/tag/v0.2.2" target="_blank" rel="noopener">Release 下载</a>
           </div>
-          <div class="commerce-focus">能接的活：活动排期表、数据记录表、素材清单、简单统计表。</div>
         </article>
 
         <article class="project">
@@ -578,7 +532,6 @@
             <span class="date">2026.02</span>
           </div>
           <p>一周内差异化触达43人，20+人报名9.9元公开课，2人进一步转化999元课程。这个项目让我更直观地理解低价入口后面还要继续跟进。</p>
-          <div class="commerce-focus">能接的活：低价引流品、会员券包、直播间福利品后的二次触达。</div>
         </article>
 
         <article class="project">
@@ -587,7 +540,6 @@
             <span class="date">2025.10 - 2026.04</span>
           </div>
           <p>整理过8类常用话术和资料模板，覆盖线索判断、跟进话术、常见问题、内容初稿等任务，并同步给60+人团队使用。</p>
-          <div class="commerce-focus">能接的活：商品标题初稿、客服答疑话术、评价整理、直播脚本草稿、竞品信息归纳。</div>
         </article>
       </div>
     </section>
@@ -595,7 +547,6 @@
     <section id="skills">
       <div class="section-head">
         <h2>我会做什么</h2>
-        <p class="section-note">只列实际能上手的事</p>
       </div>
       <div class="skills">
         <div class="skill-box">
